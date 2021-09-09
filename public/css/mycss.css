@@ -1,0 +1,111 @@
+.Headslider img {
+ width:960px;
+ height:480px;
+}
+.eventpic img{
+ width:130px;
+ height:70px;
+}
+.itemcartpic {
+ width:80px;
+ height:80px;
+}
+.border-3 {
+    border-width:3px !important;
+}
+
+
+.headunderline{border-bottom: 2px solid #ddd;}
+.searchside{width:50%; }
+
+@media screen and (max-width: 959px) {
+    /* 959px以下に適用されるCSS（タブレット用） */
+    .Headslider img {
+        width:960px;
+        height:360px;
+    }
+}
+@media screen and (max-width: 480px) {
+    /* 480px以下に適用されるCSS（スマホ用） */
+    .Headslider img{
+        width:720px;
+        height:180px;
+    }
+}
+
+/*footer*/
+    .search-text{
+        margin-top:50px;
+        background-color: #343434;
+        padding-top:60px;
+        padding-bottom:60px;
+    }
+
+    .search-text .input-search{
+        height:45px;
+        width:40%;
+        padding-left:20px;
+        color:#333;
+    }
+
+    .search-text .btn-search{
+        background: #da3e44;
+        border:none;
+        color:#FFF;
+        height: 45px;
+        width: 80px;
+    }
+
+    .search-text h4{
+        color: #FFF;
+        font-weight: 700;
+    }
+
+    footer{
+        background-color: #343434;
+        padding:30px 0px;
+    }
+
+    .logo{
+        color:#dd8500;
+
+        font-size:30px;
+    }
+
+    .address span , .menu span{
+    color: #FFF;
+
+    border-bottom: 1px solid #c7c7c7;
+    padding:10px 0px;
+    display: block;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 3px;
+    }
+
+    .address li a , .menu li a{
+        color:#FFF;
+        letter-spacing: 3px;
+        text-decoration:none;
+        font-size:14px;
+    }
+
+    .address li, .menu li{
+        margin:20px 0px;
+        list-style: none;
+    }
+
+    .address li a:hover , .menu li a:hover{
+        color: #e25300;
+        -webkit-transition: all 0.1s ease-in-out;
+        -moz-transition: all 0.1s ease-in-out;
+        -o-transition: all 0.1s ease-in-out;
+        transition: all 0.1s ease-in-out;
+    }
+
+    .address .fa{
+        color: #da3e44;
+        margin-right: 10px;
+        font-size:18px;
+    }
+/*footer*/
