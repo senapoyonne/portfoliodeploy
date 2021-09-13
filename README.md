@@ -23,4 +23,4 @@ http://blinkfishing.xsrv.jp/login
 - Stripe.js
 - laravel shoppingcart by bumbummen99(https://github.com/bumbummen99/LaravelShoppingcartDemo)
 - Yubinbango.js by https://github.com/yubinbango/yubinbango
-
+- Bootstrap
